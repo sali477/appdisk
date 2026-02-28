@@ -1,0 +1,72 @@
+/* basic styles like in your screenshot */
+* { box-sizing: border-box; font-family: Inter, Arial, sans-serif; }
+
+body, html, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f2f2f2;
+  padding: 30px;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 520px;
+  background: #fff;
+  padding: 34px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.login-card h2 {
+  margin: 0 0 18px 0;
+  font-size: 26px;
+}
+
+.input {
+  width: 100%;
+  padding: 14px 16px;
+  margin: 12px 0;
+  border-radius: 10px;
+  border: 1px solid #e6e6e6;
+  font-size: 15px;
+}
+
+.btn {
+  width: 100%;
+  padding: 14px;
+  margin-top: 8px;
+  border-radius: 10px;
+  border: none;
+  background: #457B9D; /* purple like screenshot */
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 6px 14px #6b0d5a2e;
+}
+
+.links-row {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.link {
+  color:#416e89;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.sep { color: #999; margin: 0 8px; }
+
+.footer { margin-top: 18px; font-size: 13px; color: #777; }
