@@ -1,9 +1,16 @@
- import React from "react";
-import EspaceEnseignant from "./pages/EspaceEnseignant.jsx"; // path صحيح + extension
-import "./styles/App.css";
+ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import TeacherHome from "./pages/TeacherHome";
+import TeacherProfile from "./pages/TeacherProfile";
 
 function App() {
-  return <EspaceEnseignant />;
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<TeacherHome />} />
+        <Route path="/profile" element={<TeacherProfile />} />
+      </Routes>
+    </Router>
+  );
 }
 
 export default App;
