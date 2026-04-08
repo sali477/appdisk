@@ -1,0 +1,222 @@
+/* GENERAL */
+body, html, .accueil {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* HEADER */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(29,53,87,0.95);
+  color: white;
+  padding: 12px 0;
+  z-index: 100;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.header nav a:hover {
+  color: #A8DADC;
+}
+
+.header button {
+  background-color: #1D3557;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.header button:hover {
+  background-color: #457B9D;
+}
+
+/* HERO */
+.hero {
+  padding-top: 100px;
+  padding-bottom: 80px;
+  background: linear-gradient(to right, #457B9D, #1D3557);
+  text-align: center;
+  color: #fff;
+}
+
+.hero h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.hero-search {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.hero-search input {
+  padding: 10px 16px;
+  border-radius: 12px;
+  border: 1px solid #457B9D;
+  width: 300px;
+  font-size: 16px;
+}
+
+.hero-search button {
+  padding: 10px 20px;
+  border-radius: 12px;
+  border: none;
+  background-color: #1D3557;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hero-search button:hover {
+  background-color: #457B9D;
+}
+
+/* MODULES */
+.modules {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f0f8fa;
+}
+
+.modules h3 {
+  font-size: 32px;
+  color: #1D3557;
+  margin-bottom: 40px;
+}
+
+.modules-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.module-card {
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid  ;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.module-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.module-card h4 {
+  color: #1D3557;
+  margin-bottom: 10px;
+}
+
+/* PROFESSEURS */
+.professeurs {
+  padding: 60px 20px;
+  background-color: #e6f2f8;
+  text-align: center;
+}
+
+.professeurs h3 {
+  font-size: 32px;
+  color: #1D3557;
+  margin-bottom: 40px;
+}
+
+.prof-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.prof-card {
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid #457B9D;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.prof-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.prof-card img {
+  width: 120px;
+  height: 120px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #457B9D;
+  margin-bottom: 12px;
+}
+
+.prof-card h4 {
+  color: #1D3557;
+  margin-bottom: 5px;
+}
+
+.prof-card p {
+  color: #333;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.prof-buttons button {
+  padding: 8px 16px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  color: white;
+  background-color: #1D3557;
+  transition: background-color 0.3s;
+}
+
+.prof-buttons button:hover {
+  background-color: #457B9D;
+}
+
+/* FOOTER */
+footer {
+  background-color: #1D3557;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
