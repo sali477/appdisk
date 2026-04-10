@@ -92,7 +92,7 @@ export default function Accueil() {
 
       {/* FOOTER */}
       <footer>
-        <p>© 2025 MYPROF. Tous droits réservés.</p>
+        <p>© 2026 MYPROF. Tous droits réservés.</p>
       </footer>
 
     </div>
